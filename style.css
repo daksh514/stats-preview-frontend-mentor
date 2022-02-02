@@ -1,0 +1,119 @@
+body {
+    background-color:  hsl(233, 47%, 7%);
+}
+
+.main {
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 10px;
+    display: inline-block;
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.main_title {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    width: 350px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+span {
+    color: hsl(277, 64%, 61%);
+}
+.about {
+    color: grey;
+    font-family: 'Lexend Deca', sans-serif;
+    position: relative;
+    width: 340px;
+    left: 50px;
+    top: 50px; 
+    font-size: 0.8rem;
+}
+
+.about_features {
+   position: relative;
+   top: 100px;
+   left: 50px;
+   font-family: 'Inter', sans-serif;
+   font-weight: bolder;
+   display: flex;
+}
+
+.div_1_h1 {
+   color: white;
+    font-size: 1rem; 
+}
+
+.div_1_p {
+    color: grey;
+    font-size: 0.7rem;
+    position: relative;
+    bottom: 5px;
+}
+
+.div_2 {
+    position: relative;
+    left: 50px;
+}
+
+.div_2_h1 {
+    color: white;
+    font-size: 1rem;
+}
+
+.div_2_p {
+    color: grey;
+    font-size: 0.7rem;
+    position: relative;
+    bottom: 5px;
+}
+
+.div_3 {
+    position: relative;
+    left: 100px;
+}
+
+.div_3_h1 {
+    color: white;
+    font-size: 1rem;
+}
+
+.div_3_p {
+    color: grey;
+    font-size: 0.7rem;
+    position: relative;
+    bottom: 5px;
+}
+
+img {
+    bottom: 250px;
+    border-radius: 0 10px 10px 0;
+    height: 396px;
+    width: 400px;
+    position: relative;
+    left: 400px;
+    filter: invert(25%) sepia(26%) saturate(3231%) hue-rotate(258deg) brightness(92%) contrast(94%);
+}
+
+.attribution {
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 500px;
+}
+
+a {
+    color: yellow;
+    font-family: 'Lexend Deca', sans-serif;
+}
+/* 
+font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif; */
